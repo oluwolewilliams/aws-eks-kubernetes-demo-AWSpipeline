@@ -1,0 +1,6 @@
+# Ignore everything by default
+**
+
+# Allow the files needed for the image
+!Dockerfile
+!app1/**
