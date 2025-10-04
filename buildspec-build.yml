@@ -3,7 +3,8 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: us-east-1
-    IMAGE_URI: 180789647333.dkr.ecr.us-east-1.amazonaws.com/eks-devops
+    IMAGE_URI: 786359466063.dkr.ecr.us-east-1.amazonaws.com/eks-devops
+    #786359466063.dkr.ecr.us-east-1.amazonaws.com/eks-devops
 
 phases:
   pre_build:
