@@ -50,7 +50,7 @@ phases:
     - kubectl apply -f kube-manifests/
     # Wait for deployment rollout to complete
     - echo "Waiting for deployment rollout to complete..."
-    - kubectl rollout status deployment/eks-devops-deployment --timeout=180s
+    - kubectl rollout status deployment/eks-devops-deployment --timeout=280s
 
   post_build:
     commands:
